@@ -1,4 +1,7 @@
 # [PovRay](http://www.povray.org/) model of fractal aerosols
+
+[![DOI](https://zenodo.org/badge/2559503.svg)](https://zenodo.org/badge/latestdoi/2559503)
+
 This script render a synthetic image of fractal aerosols.
 
 ## Fractal aggregate

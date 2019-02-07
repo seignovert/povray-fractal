@@ -1,0 +1,31 @@
+{
+    "title": "PovRay model of fractal aerosols",
+    "description": "<p>This script render a synthetic image of fractal aerosols.</p><p><strong>Fractal aggregate</strong></p><p>Based on <a href=\"https://dx.doi.org/10.1088/0305-4470/28/2/008\">Botet et al. (1995)</a> we build a collection of fractal aggregates of 1, 2, 4, 8, 16, 32, 64, 128, 256, 512 and 1024 monomers. Their reduce coordinates are stored in a <em>fractals.db</em> SQLite database and can be dumped like this:</p><pre><code>sqlite3 fractals.db 'SELECT x,y,z FROM Geo_128 WHERE k=7' -header -column</code></pre><p>Then this database is used by a python script to generate a PovRay scene:</p><pre><code>python fractals-draw.py 128 7</code></pre>",
+    "publication_date": "2016-11-07",
+    "prereserve_doi": {
+        "doi": "10.5281/zenodo.2559503",
+        "recid": 2559503
+    },
+    "license": "MIT",
+    "upload_type": "software",
+    "access_right": "open",
+    "creators": [
+        {
+            "name": "Seignovert, Benoît",
+            "orcid": "0000-0001-6533-275X",
+            "affiliation": "Université de Reims Champagne-Ardenne"
+        },
+        {
+            "name": "Rannou, Pascal",
+            "affiliation": "Université de Reims Champagne-Ardenne"
+        }
+    ],
+    "keywords": [
+        "povray",
+        "fractal",
+        "aggregate"
+    ],
+    "references": [
+        "Botet et al. (1995). Journal of Physics. DOI: 10.1088/0305-4470/28/2/008"
+    ]
+}
