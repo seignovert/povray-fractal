@@ -100,6 +100,6 @@ class DRAW:
         camera = self.pov.Camera( 'angle', 1, 'location', [zoom,0,-zoom], 'look_at', [0,0,0])
         scene  = self.pov.Scene( camera, self.obj, included=['colors.inc', 'textures.inc'])
         
-        scene.render(fname , width=width, height=height, antialiasing=antialiasing)
-        print '> %s saved in %s' % (self,fname)
+        scene.render(fname, width=width, height=height, antialiasing=antialiasing, output_alpha=True)
+        print('> %s saved in %s' % (self,fname))
         return
