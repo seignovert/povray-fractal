@@ -2,7 +2,8 @@
 
 [![Docker Automated build](https://img.shields.io/docker/automated/seignovert/povray-fractal.svg)](https://hub.docker.com/r/seignovert/povray-fractal/)
 [![Docker Build Status](https://img.shields.io/docker/build/seignovert/povray-fractal.svg)](https://hub.docker.com/r/seignovert/povray-fractal/)
-[![GitHub license](https://img.shields.io/github/license/seignovert/povray-fractal.svg)](https://github.com/seignovert/povray-fractal/blob/master/LICENSE.md)
+[![Release](https://img.shields.io/github/release/seignovert/povray-fractal.svg)](https://github.com/seignovert/povray-fractal/)
+[![License](https://img.shields.io/github/license/seignovert/povray-fractal.svg)](https://github.com/seignovert/povray-fractal/blob/master/LICENSE.md)
 [![DOI](https://zenodo.org/badge/120361936.svg)](https://zenodo.org/badge/latestdoi/120361936)
 
 This script render a synthetic image of fractal aerosols.
