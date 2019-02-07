@@ -28,7 +28,6 @@ sh GIF/create_gif.sh
 ## Dependancy
 The following packages are needed to run this code:
 - Numpy
-- Sqlite3
 - [Vapory](https://pypi.python.org/pypi/Vapory/0.1.0) (and [PovRay](http://www.povray.org/) install on the system)
 
 ## Resources:
