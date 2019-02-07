@@ -1,4 +1,6 @@
-language: ruby
+language: python
+
+script: skip
 
 deploy:
   provider: releases
